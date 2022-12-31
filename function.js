@@ -25,7 +25,7 @@ var time = 1500;
 
 images[0] = 'f1.png';
 images[1] = 'K4.jpg';
-images[2] = 'pr1.jpg';
+images[2] = 'a1-1.png';
 images[3] = 'v2.png';
 
 function changeImg(){
