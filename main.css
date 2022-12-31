@@ -5,7 +5,7 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    /* color: #5a5a5a; */
+    /* font-family: monospace, sans-serif; */
   }
 
   .header1 {
@@ -13,21 +13,95 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 100px;
+  }
+
+  .header1dc {
+    background-image: url(Homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     height: 300px;
+  }
+
+  .header1dc01 {
+    background-image: url(Homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+  }
+
+  .header1dc02 {
+    background-image: url(Homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+  }
+
+  .header1dc03 {
+    background-image: url(Homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+  }
+
+  
+  
+  .headergetquote {
+    background-image: url(Homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+  }
+
+  #getquotetext {
+  padding-left: 45px;
+  width: 80%;
+  }
+  #getquote {
+    margin-top: 2%;
+  }
+  .headerfaq {
+    background-image: url(about-us-1536x609.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+  }
+
+  .headercontact {
+    background-image: url(about-us-1536x609.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
   }
   .headerh {
     position: absolute;
     left: 10%;
-    top: 100px;
+    top: 50px;
     margin-top: 15px;
     padding: 20px;
     color: white;
     /* text-align: center; */
   }
+  .headerp1 {
+    position: absolute;
+    left: 10%;
+    top: 130px;
+    margin-top: 15px;
+    padding: 20px;
+    color: white;
+  }
+
   .headerp {
     position: absolute;
     left: 10%;
-    top: 150px;
+    top: 130px;
     margin-top: 15px;
     padding: 20px;
     color: white;
@@ -77,8 +151,14 @@ body {
   }
   
   .chooseusnow {
-    margin-top: -39px;
+    margin-top: -30px;
+    padding: 5px;
   }
+
+  /* .chooseusnow {
+    margin-top: -30px;
+    padding: 5px;
+  } */
 
   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -152,6 +232,25 @@ input[type=submit]:hover {
 
   .chooseus {
     margin-bottom: 2.5rem;
+  }
+  .sociahandle {
+    width:70px;
+    height: 70px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+    z-index: 10;
+  }
+
+  .sociahandle1 {
+    width:40px;
+    height: 40px;
+    border-radius: 50px;
+    /* position: fixed; */
+    /* bottom: 40px; */
+    /* right: 15px; */
+    /* z-index: 10; */
   }
   
   
@@ -247,7 +346,7 @@ input[type=submit]:hover {
   } */
 
   #logo {
-    margin-left: 45px;
+    /* margin-left: 45px; */
     margin-right: 40px;
   }
 
@@ -255,6 +354,29 @@ input[type=submit]:hover {
     margin-right: 40px;
   }
 
+  .cont{
+    position: relative;
+  }
+  
+  .cont1{
+    position: absolute;
+    top: 180px;
+    background-color: rgb(233, 222, 222);
+    padding: 20px;
+    z-index: 1;
+  }
+
+  .cont1 h2 {
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .cont1 p {
+    font-size: 20px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+  }
+  .chooseusnow
       #expertise {
         text-align: center;
         font-style: italic;
@@ -352,3 +474,120 @@ input[type=submit]:hover {
       .faq .row .accordion-container .accordion:nth-child(1) .accordion-body{
         display: block;
       }
+
+  #calresultbox {
+    background-color: #198754;
+    /* border-radius: 15%; */
+    width: 80%;
+  }
+
+  #calresultbox h1 {
+    color: white;
+  }
+
+  #calresultbox h2 {
+    color: white;
+  }
+
+      /* Style the form */
+#regForm {
+  background-color: #ffffff;
+  /* margin: 100px auto; */
+  padding: 20px;
+  /* width: 100%; */
+  padding-left: 45px;
+  width: 90%;
+  min-width: 300px;
+}
+
+#calwrite {
+  padding-right: 50px;
+}
+
+#cont3 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 300px;
+}
+
+/* #cont4 {
+  color: white;
+  position: absolute;
+  top: 50px;
+} */
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}
+
+.bottomnavcontainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.bottomtopnavhandles {
+  width: 40px; 
+  height: 40px;
+  background-color: #25d366;
+  border-radius: 50px;
+  text-align: center;
+  margin: 3px;
+}
+
+.whats-app {
+  width: 70px; 
+  height: 70px;
+  position: fixed;
+  bottom: 40px;
+  right: 15px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 20px;
+}
